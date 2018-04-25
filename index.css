@@ -1,0 +1,111 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(255, 230, 255);
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+html{
+    margin: 0;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+#image
+{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wrapper
+{
+    margin: 100px auto 0 auto;
+    width: 550px;
+    display: flex;
+
+}
+.wrapper a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #ff80ff;
+}
+
+#leo {
+   width: 250px;
+   
+    height: 400px;
+    
+}
+#leo a{
+    padding-top: 203px;
+    padding-right: 120px;
+    position: relative;
+    text-align: center;
+}
+
+#leo img{
+    
+     
+    margin-right: 10px ;
+}
+
+#boss{
+
+    width: 250px;
+    text-align: center;
+  
+}
+#boss img
+{
+    width: 200px;
+    margin-left: 50px;
+}
+
+.fras{
+    text-align: center;
+    margin-top: 20px 
+}
+.container {
+    width: 25%;
+    height: 200px;
+    
+    margin: auto;
+    padding: 10px;
+}
+.container div
+{
+    width: 30%;
+    float: left;
+    margin-right: 20%;
+}
+
+
+footer{
+    height: 200px;
+    margin-top: 70px;
+    background-color: #686868;
+    color: white;
+    max-width: 180%;
+}
+#Marion{
+    padding-top: 3%;
+    padding-left: 85%;
+}
+#Windows
+{
+    padding-top: 3%;
+    padding-left: 70%;
+    font-weight: bold;
+    color: #A8A8A8;
+}
+span
+{
+    font-size: 28px;
+}
