@@ -18,54 +18,69 @@ h1{
     font-weight: bold;
     font-size: 40px;
 }
-#image
-{
-    width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.wrapper
-{
-    margin: 100px auto 0 auto;
-    width: 550px;
+.wrapper{
     display: flex;
+    flex-direction: row;
+    height: 350px;
+}
+#leo{
+
+flex: 1;
 
 }
-.wrapper a{
-    text-decoration: none;
-    font-weight: bold;
-    color: #ff80ff;
-}
-
-#leo {
-   width: 250px;
-   
-    height: 400px;
-    
+#leo img{
+    padding-top: 50px;
+    padding-left: 450px;
 }
 #leo a{
-    padding-top: 203px;
-    padding-right: 120px;
-    position: relative;
-    text-align: center;
+    
+    padding-left: 515px;
+    margin-top: 30px;
+    height: 100px;
+    display:inline-block;
+    text-decoration: none;
+     color: #ff4d4d;
+}
+#leo a:hover{
+    color:  #ff8533;
+    font-size: 20px;
 }
 
-#leo img{
     
-     
-    margin-right: 10px ;
+
+
+
+
+#rolex{
+    flex: 2
+    justify-content: center;
 }
 
 #boss{
 
-    width: 250px;
-    text-align: center;
-  
+flex: 1;
+
 }
-#boss img
-{
-    width: 200px;
-    margin-left: 50px;
+#boss img{
+ padding-top: 50px;
+ padding-left: 70px;  
+}
+#boss a{
+    display: inline-block;
+ padding-top: 30px;
+ padding-left: 20px;  
+ text-decoration: none;
+ color: #ff4d4d;
+}
+#click a{
+    padding-left: 130px;
+    padding-bottom: 40px;
+     text-decoration: none;
+     color: #ff4d4d;
+}
+#click a:hover{
+    color:  #ff8533;
+    font-size: 20px;
 }
 
 .fras{
@@ -88,8 +103,8 @@ h1{
 
 
 footer{
-    height: 200px;
-    margin-top: 70px;
+    height: 210px;
+    margin-top: 150px;
     background-color: #686868;
     color: white;
     max-width: 180%;
